@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Portfólio | Pedro Bernardes</title>
+</head>
+
+<body>
+    <header>
+        <section class="headerMenu">
+            <button class="headerMenu__hamburger" aria-label="Abrir menu">
+                <span class="headerMenu__hamburger__bar"></span>
+                <span class="headerMenu__hamburger__bar"></span>
+                <span class="headerMenu__hamburger__bar"></span>
+            </button>
+
+            <nav class="headerMenu__nav" id="main-nav">
+                <ul class="headerMenu__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="news.html">Novidades</a></li>
+                </ul>
+            </nav>
+            <a class="headerMenu__btnContact" href="contact.html">Contato</a>
+        </section>
+    </header>
+
+    <main class="portfolio__main">
+        <h1 class="portfolio__main__title">Meus Projetos</h1>
+
+        <section class="portfolio__cards-container">
+            <article class="portfolio__card">
+                <h3 class="portfolio__card__title">Calculadora Funcional em C</h3>
+                <p class="portfolio__card__p">Projeto de calculadora em console que permite realizar operações
+                    aritméticas básicas (soma, subtração, multiplicação, divisão e potenciação). Possui menu interativo,
+                    validação de entradas, tratamento de erros (como divisão por zero) e exibição de resultados com três
+                    casas decimais. O sistema funciona em loop até a opção de finalizar ser escolhida.</p>
+                <a href="https://github.com/pedrohmbernardes/CalculadoraBasicaFuncionalEmC" target="_blank"
+                    class="portfolio__card__btn">Ver no GitHub</a>
+            </article>
+
+            <article class="portfolio__card">
+                <h3 class="portfolio__card__title">Challenge Amigo Secreto - Alura | ONE</h3>
+                <p class="portfolio__card__p">Aplicação web desenvolvida com HTML5, CSS3 e JavaScript para sortear
+                    amigos secretos de forma simples e divertida. Permite adicionar participantes, valida entradas,
+                    realiza o sorteio de forma automática e exibe os resultados na tela.</p>
+                <a href="https://github.com/pedrohmbernardes/challenge-amigo-secreto-ALURA-ONE" target="_blank"
+                    class="portfolio__card__btn">Ver no GitHub</a>
+            </article>
+
+            <article class="portfolio__card">
+                <h3 class="portfolio__card__title">Clone da Tela de Login da Netflix</h3>
+                <p class="portfolio__card__p">Este projeto é um clone da tela de login da Netflix, desenvolvido com o
+                    objetivo de praticar e aprimorar habilidades em HTML e CSS.</p>
+                <a href="https://github.com/pedrohmbernardes/tela-login-clone-netflix" target="_blank"
+                    class="portfolio__card__btn">Ver
+                    no GitHub</a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <h3 class="footer__h3">Desenvolvido por Pedro Bernardes</h3>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

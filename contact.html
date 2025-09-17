@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Contato | Pedro Bernardes</title>
+</head>
+
+<body>
+    <header>
+        <section class="headerMenu">
+            <button class="headerMenu__hamburger" aria-label="Abrir menu">
+                <span class="headerMenu__hamburger__bar"></span>
+                <span class="headerMenu__hamburger__bar"></span>
+                <span class="headerMenu__hamburger__bar"></span>
+            </button>
+
+            <nav class="headerMenu__nav" id="main-nav">
+                <ul class="headerMenu__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="news.html">Novidades</a></li>
+                </ul>
+            </nav>
+            <a class="headerMenu__btnContact" href="contact.html">Contato</a>
+        </section>
+    </header>
+
+    <main class="contact__main">
+        <h1 class="contact__main__title">Entre em Contato</h1>
+
+        <form class="contact__form" id="contact-form" action="#" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit" class="contact__form__btn">Enviar Mensagem</button>
+        </form>
+
+        <section class="contact__linkedin">
+            <p>Ou, se preferir, conecte-se comigo:</p>
+            <a href="https://www.linkedin.com/in/pedrohmbernardes/" target="_blank"
+                class="contact__linkedin__btn">Acessar LinkedIn</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <h3 class="footer__h3">Desenvolvido por Pedro Bernardes</h3>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
